@@ -1,0 +1,35 @@
+.grade{
+    display: grid;
+    grid-template-columns: 20vw 75vw;
+    grid-template-rows: 50vh 50vh;
+    background-color: lightseagreen;
+}
+
+.menu{
+    text-align: center;
+    grid-row: 1 / span 1;
+    background-color: rgb(42, 97, 79);
+    border: 1px solid black;
+}
+
+.opcao{
+    margin-top: 1px;
+    background-color: rgb(212, 250, 162);
+    border: 1px solid;
+}
+
+.titulo{
+    background-color: rgb(42, 97, 79);
+    margin-top: 40px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+
+.opcao, .ideias{
+    background-color:bisque
+}
+
+.titulo, .ideias{
+    margin-left: 4px;
+}

@@ -1,0 +1,53 @@
+.grade{
+    display: grid;
+    grid-template-columns: 20vw 40vw 10vw 20vw;
+    grid-template-rows: 20vh 20vh 10vh 20vh 20vh 20vh 20vh 20vh 20vh 20vh 20vh 20vh;
+    background-color: aquamarine;
+}
+
+.menu{
+    background-color: rgb(42, 97, 79);
+    border: 1px solid;
+    grid-row: 1 / span 3;
+    text-align: center;
+    overflow: hidden;
+}
+
+.opcao{
+    background-color: bisque;
+    margin-top: 2px;
+    border: 1px solid;
+}
+
+.voltar{
+    background-color: bisque;
+    margin-top: 2px;
+    border: 1px solid;
+    text-align: left;
+}
+
+.titulo{
+    background-color: rgb(112, 177, 155);
+    border: 1px solid rgb(48, 177, 134);
+}
+
+.ideiaspublicas{
+    margin-left: 10px;
+    text-align: center;
+    background-color: rgb(42, 97, 79);
+}
+
+.geral{
+    grid-column: 2/ span 2;
+}
+
+.ideia{
+    background-color: bisque;
+    margin-left: 10px;
+}
+
+.preview{
+    background-color: bisque;
+    margin-left: 10px;
+    border: 1px solid rgb(196, 142, 77);
+}
