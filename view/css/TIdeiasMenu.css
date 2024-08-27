@@ -37,6 +37,17 @@
     align-self: center;
 
 }
+
+.publicar{
+    background-color: rgb(112, 177, 155);
+    border: 1px solid rgb(48, 177, 134);
+}
+
+.grupo{
+    margin-top: 2px;
+    background-color: bisque;
+    border: 1px solid rgb(196, 142, 77);
+}
 .ideia{
     margin-top: 0%;
     background-color: bisque;
