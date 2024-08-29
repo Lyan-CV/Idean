@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: 20vw 75vw;
     grid-template-rows: 50vh 50vh;
-    background-color: lightseagreen;
+    background-color: rgb(20, 54, 54);
 }
 
 .menu{

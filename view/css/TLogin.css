@@ -1,0 +1,40 @@
+.grade{
+    display: grid;
+    grid-template-columns: 30vw 30vw 50vw;
+    grid-template-rows: 30vh 50vh 30vh;
+    background-color: rgb(20, 54, 54);
+}
+
+.cadastro{
+    background-color: rgb(42, 97, 79);
+    border: 1px solid;
+    grid-row: 1 / span 3;
+    grid-column: 3;
+}
+
+.logo{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.titulo{
+    text-align: center;
+    text-decoration: overline;
+    color: bisque;
+}
+
+.login{
+    background-color: rgb(67, 187, 147);
+    text-align: center;
+}
+
+.conta{
+    text-align: right;
+    background-color: rgb(67, 187, 147);
+}
+
+.entrar{
+    background-color: bisque;
+    text-align: center;
+    text-decoration: wavy;
+}
