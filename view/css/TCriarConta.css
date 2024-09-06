@@ -36,5 +36,6 @@
 .entrar{
     background-color: bisque;
     text-align: center;
-    text-decoration: wavy;
+    text-decoration: none;
+    color: black;
 }
